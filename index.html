@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aan de Poel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/css/glide.theme.min.css">
+</head>
+
+    <body>
+        <div class="blue-stripe"><p class="blue-stripe-text">Subscribe to our newsletter </p><img src="./assets/images/mail-icon.png" alt="mail" class="mail-icon"></div>
+        <nav class="navbar">
+            <div class="nav-container">
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <button class="close-btn">X</button>
+                <a href="#" class="nav-link">Menu</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-vendor-name">
+                <a href="#">Aan de Poel</a>
+            </div>
+            <div class="nav-vendor-logo">
+               <a href="https://www.aandepoel.nl/"> <img src="./assets/images/Aan-de-Poel-symbol.png" alt="Aan de Poel logo"></a>
+            </div>
+        
+        </div>
+              
+            </div>
+        </nav>
+
+        <main>
+            <section id="carousel">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <img src="./assets/images/Aan-de-Poel-img2.jpg" alt="Aan de Poel landscape">
+                            </li>
+                            <li class="glide__slide">
+                                <img src="./assets/images/Aan-de-Poel-img1.jpg" alt="Aan de Poel dish">
+                            </li>
+                            <li class="glide__slide">
+                                <img src="./assets/images/Aan-de-Poel-img3.jpg" alt="Aan de Poel dish">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">&#10094;</button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">&#10095;</button>
+                    </div>
+                
+                    <div class="glide__bullets" data-glide-el="controls[nav]">
+                        <button class="glide__bullet" data-glide-dir="=0"></button>
+                        <button class="glide__bullet" data-glide-dir="=1"></button>
+                        <button class="glide__bullet" data-glide-dir="=2"></button>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="about">    
+                <h1 class="about-title">Aan de Poel </h1>
+                    <p class="about-text">
+                        Discover the culinary maestry of Restaurant Aan de Poel, where Chef Stefan van Sprang creates unforgettable dining experiences and unique flavors.<br /> Located by the beautiful Poel in Amstelveen, this restaurant has been a favorite destination for food lovers since 2007. Their dedication to excellence was recognized in 2013 when they received two Michelin stars, a proud achievement they maintain to this day.
+<br />Chef van Sprang's passion for fresh, seasonal ingredients shines through in every dish and the menu celebrates the best of local flavors, crafted with care and creativity. Experience the taste of Aan de Poel at home, or visit their elegant dining room for a special evening.
+Stay connected with Restaurant Aan de Poel by subscribing to their newsletter. You'll be the first to know about their latest creations, special events, and new featured products.
+                    </p>
+               </section>
+            </main>
+
+               <section class="subscription-section">
+                <div class="subscription-container">
+                    <h2 class="subscription-title">Stay Updated</h2>
+                    <p class="subscription-text">Subscribe to our newsletter to receive updates about seasonal menus, special events, and exclusive offers.</p>
+                    
+                    <form id="subscription-form">
+                        <div class="form-group">
+                            <input type="email" id="email-input" placeholder="Your email address" required>
+                        </div>
+                        <button type="submit" id="subscribe-button">Subscribe</button>
+                    </form>
+                    
+                    <div id="notification" class="notification">
+                        <p id="notification-message"></p>
+                        <span id="close-notification">&times;</span>
+                    </div>
+                </div>
+            </section>
+           
+    
+               <footer>
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>Visit Us</h3>
+                        <p>Koenenkade 56</p>
+                        <p>1081 KE Amstelveen</p>
+                        <p>Netherlands</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Contact</h3>
+                        <p>Phone: +31 20 646 2207</p>
+                        <p>Email: info@aandepoel.nl</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Hours</h3>
+                        <p>Tuesday - Saturday</p>
+                        <p>Lunch: 12:00 - 14:00</p>
+                        <p>Dinner: 18:30 - 21:30</p>
+                    </div>
+                </div>
+                <div class="footer-social-media">
+                    <a href="https://www.instagram.com/restaurantaandepoel/" target="_blank"><img src="./assets/images/insta-icon.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/aandepoel/" target="_blank"><img src="./assets/images/facebook-icon.png" alt="Facebook"></a>
+                </div>
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/glide.min.js"></script>
+            <script src="index.js"></script>
+    </body>
+</html>
